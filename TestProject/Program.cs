@@ -19,6 +19,9 @@ namespace TestProject
                         Console.WriteLine("Invalid Entry.. Exiting");
                         loopCondition = false;
                         break;
+                    case "bla":
+                        Console.WriteLine("You cannot write bla!!!");
+                        break;
                     default:
                         Console.WriteLine(mystring);
                         break;
